@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QuestionPage"
+    android:orientation="vertical"
+    android:background="#1f1f1d">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Quizzler"
+            android:textColor="#fff"
+            android:textSize="55sp"
+            app:fontFamily="@font/baloo" />
+    </RelativeLayout>
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/question"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:textColor="#F3E39F"
+        android:layout_marginBottom="10dp"
+        android:text=""/>
+
+
+    <RadioGroup
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:id="@+id/options">
+
+    <RadioButton
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/option1"
+        android:textColor="#F3E39F"
+        android:text=""/>
+
+    <RadioButton
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/option2"
+        android:textColor="#F3E39F"
+        android:text=""/>
+
+    <RadioButton
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/option3"
+        android:textColor="#F3E39F"
+        android:text=""/>
+
+    <RadioButton
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/option4"
+        android:textColor="#F3E39F"
+        android:text=""/>
+
+</RadioGroup>
+
+
+    <LinearLayout
+
+        android:orientation="horizontal"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent" android:layout_marginTop="40dp">
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="120dp"
+        android:id="@+id/prev"
+        android:text="\u003C\u003C Prev"
+        android:background="#D0F3A2"/>
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="110dp"
+        android:id="@+id/skip"
+        android:text="Skip"
+        android:background="#F3E39F"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="120dp"
+        android:id="@+id/next"
+        android:layout_marginTop="-10dp"
+        android:text="Submit\n(Next) \u003E\u003E"
+        android:background="#D0F3A2"/>
+
+</LinearLayout>
+
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_marginTop="40dp">
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/endtest"
+        android:text="END TEST"
+        android:background="@color/colorPrimary"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+
+</LinearLayout>
+
+</LinearLayout>
+
